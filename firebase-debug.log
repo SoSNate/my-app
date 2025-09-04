@@ -1,0 +1,27 @@
+[debug] [2025-09-04T02:18:43.727Z] ----------------------------------------------------------------------
+[debug] [2025-09-04T02:18:43.731Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/ddncjx4vr7n8ighdsnmviznfzlpb3d54-firebase-tools-14.15.1/lib/node_modules/firebase-tools/lib/bin/firebase.js init
+[debug] [2025-09-04T02:18:43.732Z] CLI Version:   14.15.1
+[debug] [2025-09-04T02:18:43.732Z] Platform:      linux
+[debug] [2025-09-04T02:18:43.733Z] Node Version:  v20.19.1
+[debug] [2025-09-04T02:18:43.733Z] Time:          Thu Sep 04 2025 02:18:43 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-09-04T02:18:43.733Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-04T02:18:43.736Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-09-04T02:18:43.797Z] No OAuth tokens found
+[debug] [2025-09-04T02:18:43.797Z] No OAuth tokens found
+[error] Failed to fetch Firebase Project from current Studio Workspace: Unable to refresh auth: not yet authenticated.
+[debug] [2025-09-04T02:18:43.804Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-04T02:18:44.071Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-09-04T02:18:44.073Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-09-04T02:19:18.620Z] Running auto auth
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/my-app
+
